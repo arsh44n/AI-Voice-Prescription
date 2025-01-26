@@ -90,9 +90,11 @@ The result will be displayed in the GUI as a structured JSON output.
 ![Screenshot 2025-01-26 192650](https://github.com/user-attachments/assets/0f274428-98f2-45a1-a5dc-f28582195f94)
 
 2. **Record Your Voice:**
+   
 ![Screenshot 2025-01-26 192706](https://github.com/user-attachments/assets/9435170e-0501-40fa-9702-04899e3c31cc)
 
 3. **Transcribe Audio and Classify Presciption:**
+   
 ![Screenshot 2025-01-26 192727](https://github.com/user-attachments/assets/d1f7eafd-3cc8-4e22-abdd-66d9d85db990)
 
 
