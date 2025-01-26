@@ -1,9 +1,5 @@
 # AI-Voice-Prescription
 AI-Driven Prescription Classifier
-Here's a README file for your project:
-
----
-
 # AI-Driven Prescription Classifier
 
 This is an AI-powered prescription classifier built using Python and machine learning. The application records voice input, transcribes the speech to text, and then classifies the prescription details such as medication type, medicine name, dosage, and frequency. The classifier uses a pre-trained Naive Bayes model to predict the medication type and extracts dosage and frequency from the transcribed text.
@@ -88,6 +84,18 @@ The result will be displayed in the GUI as a structured JSON output.
 2. **Transcribing Audio**: The `speechrecognition` library is used to convert the recorded audio into text using Google's Speech Recognition API.
 3. **Classifying Prescription**: A simple machine learning model (Naive Bayes) is trained on sample prescription data to predict the medication type based on the transcription. The dosage is extracted as an integer, and the frequency is detected by parsing keywords like "once," "twice," etc.
 
+## Screenshots
+
+1. **Interface:**
+![Screenshot 2025-01-26 192650](https://github.com/user-attachments/assets/0f274428-98f2-45a1-a5dc-f28582195f94)
+
+2. **Record Your Voice:**
+![Screenshot 2025-01-26 192706](https://github.com/user-attachments/assets/9435170e-0501-40fa-9702-04899e3c31cc)
+
+3. **Transcribe Audio and Classify Presciption:**
+![Screenshot 2025-01-26 192727](https://github.com/user-attachments/assets/d1f7eafd-3cc8-4e22-abdd-66d9d85db990)
+
+
 ## Troubleshooting
 
 1. **Microphone Issues**: Ensure your microphone is connected and selected as the input device in your operating system settings.
@@ -104,6 +112,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - `scikit-learn` for providing the tools for creating the machine learning model.
 - `sounddevice` for audio recording functionality.
 
----
-
-Let me know if you'd like any changes or additions to the README!
